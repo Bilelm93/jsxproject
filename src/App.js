@@ -10,12 +10,13 @@ function App() {
 
       <h1 className="title red">Bilel Marrouchi</h1>
        
-      <span className="image">
-      <img src={imageInSrc} alt="imageInSrc" />
-       <br></br>
+     <span className="image">
+      <img src={imageInSrc} alt="imageInSrc"  />
+      <br />
 
-      <img src="/imageInPublic.jpg" />
-      </span>
+      <img src="/imageInPublic.jpg"  />
+     
+      </span> 
 
       <video width='320' height='240'controls  allow='autoplay' >
 
